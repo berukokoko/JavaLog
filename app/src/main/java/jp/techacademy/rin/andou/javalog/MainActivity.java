@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Humanをインスタンス化する。
-       Human human = new Human("a",1);
+       Human human = new Human("name",age);
         //sayメソッドを呼ぶ。
         Human.say();
         Log.d("javatest", "私の名前は" + Human.name + "です。");
