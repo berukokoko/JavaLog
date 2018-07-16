@@ -8,6 +8,9 @@ public class Human extends Animal  {
 
     // hobbyメンバ変数
     String hobby;
+    String name;
+    int age;
+
 
     //コンストラクタ
         public Human(String name, int age,String hobby){
@@ -24,6 +27,7 @@ public class Human extends Animal  {
     //animalクラスからのsayメソッド。
     @Override
     public void say() {
-
+        Log.d("javatest","私の名前は"+name +"です。");
+        Log.d("javatest","年は"+age +"です。");
     }
 }
