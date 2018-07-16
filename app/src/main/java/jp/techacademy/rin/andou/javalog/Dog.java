@@ -25,7 +25,6 @@ class Dog extends Animal implements Movable {
 
     @Override
     public void think(){
-
     };
 
     public void move() {

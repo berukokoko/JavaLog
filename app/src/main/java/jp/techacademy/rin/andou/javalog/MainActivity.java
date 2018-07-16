@@ -19,16 +19,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
     //Humanをインスタンス化する。
     Human human = new Human("name", age);
-    //sayメソッドを呼ぶ。
-        Human.say();
-        Log.d("javatest","私の名前は"+Human.name +"です。");
-        Log.d("javatest","年は"+Human.age +"です。");
+    //sayメソッドを呼ぶ
+        human.say();
+        Log.d("javatest","私の名前は"+human.name +"です。");
+        Log.d("javatest","年は"+human.age +"です。");
+
     //thineメソッドを呼ぶ。
-        Human.think();
+        human.think();
     }
 
 }

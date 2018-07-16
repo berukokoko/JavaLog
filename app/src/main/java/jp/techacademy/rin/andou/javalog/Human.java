@@ -16,9 +16,8 @@ public class Human extends Animal  {
         }
 
     //thinkを呼ぶ。
-    @Override
     public void think() {
-        Log.d("私は",hobby +"について考える");
+        Log.d("javatest","私は"+hobby +"について考える");
     }
 
     //animalクラスからのsayメソッド。
