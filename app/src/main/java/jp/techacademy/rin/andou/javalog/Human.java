@@ -7,12 +7,13 @@ import android.util.Log;
 public class Human extends Animal  {
 
     // hobbyメンバ変数
-    int hobby;
+    String hobby;
 
     //コンストラクタ
-        public Human(String name, int age){
+        public Human(String name, int age,String hobby){
             this.name = name;
             this.age = age;
+            this.hobby = hobby;
         }
 
     //thinkを呼ぶ。
