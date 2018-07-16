@@ -3,7 +3,6 @@ package jp.techacademy.rin.andou.javalog;
 import android.animation.AnimatorListenerAdapter;
 import android.util.Log;
 
-import android.util.Log;
 class Dog extends Animal implements Movable {
     // クラス変数
     static String to_jp = "犬";
@@ -24,6 +23,10 @@ class Dog extends Animal implements Movable {
         Log.d("javatest", this.name + "(" + this.age + "歳)" + "「ワンワン」");
     }
 
+    @Override
+    public void think(){
+
+    };
 
     public void move() {
         Log.d("javatest", this.name + "(" + this.age + "歳)" + "は全力で走った。");
