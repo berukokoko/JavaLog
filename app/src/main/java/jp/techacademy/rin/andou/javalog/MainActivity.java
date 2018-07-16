@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 
-    String name;
-    int age;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +15,6 @@ public class MainActivity extends AppCompatActivity {
     Human human = new Human("安藤", 25, "料理");
     //sayメソッドを呼ぶ
         human.say();
-        Log.d("javatest","私の名前は"+human.name +"です。");
-        Log.d("javatest","年は"+human.age +"です。");
 
     //thineメソッドを呼ぶ。
         human.think();
